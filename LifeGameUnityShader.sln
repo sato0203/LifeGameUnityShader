@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{3633A314-8004-95A1-DF71-8C92F4A377E8}") = "LifeGameUnityShader", "Assembly-CSharp.csproj", "{066EBE7C-4E04-A0C1-3BC5-D1A3C7353A6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{066EBE7C-4E04-A0C1-3BC5-D1A3C7353A6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{066EBE7C-4E04-A0C1-3BC5-D1A3C7353A6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{066EBE7C-4E04-A0C1-3BC5-D1A3C7353A6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{066EBE7C-4E04-A0C1-3BC5-D1A3C7353A6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
