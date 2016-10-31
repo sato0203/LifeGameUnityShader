@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/LifeGameShaderManager.cs">
+    <Files>
+      <File FileName="Assets/Script/DynamicCreateMesh.cs" Line="19" Column="4" />
+      <File FileName="Assets/Script/LifeGameShaderManager.cs" Line="27" Column="51" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
