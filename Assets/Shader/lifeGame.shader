@@ -63,7 +63,15 @@
 					{
 						float2 uvSurrounds;
 						uvSurrounds.x=i.uv.x+(j-1)*texelSize.x;
+						if(uvSurrounds.x<0)
+							uvSurrounds.x = 1;
+						if(uvSurrounds.x>1)
+							uvSurrounds.x = 0;
 						uvSurrounds.y=i.uv.y+(k-1)*texelSize.y;
+						if(uvSurrounds.y<0)
+							uvSurrounds.y = 1;
+						if(uvSurrounds.y>1)
+							uvSurrounds.y = 0;
 						colorSurrounds[j][k]=tex2D(_MainTex, uvSurrounds);
 
 						//alliveSurroundsNumの個数を計算
