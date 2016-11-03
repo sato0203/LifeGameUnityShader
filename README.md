@@ -1,0 +1,3 @@
+# LifeGameUnityShader
+
+Shaderを使ってGPGPUライフゲーム
