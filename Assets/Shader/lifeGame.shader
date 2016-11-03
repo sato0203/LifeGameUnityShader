@@ -68,7 +68,7 @@
 
 						//alliveSurroundsNumの個数を計算
 						//j=1のときk=1のときは自分自身のマスなので除外
-						if(j !=1 && k != 1)
+						if(!(j ==1 && k == 1))
 						{
 							if(colorSurrounds[j][k].r>0.5)
 							{
