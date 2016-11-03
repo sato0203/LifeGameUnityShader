@@ -1,6 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/// <summary>
+/// メッシュ情報を読むためのクラス、デバッグ用
+/// </summary>
 public class MeshInformationReader : MonoBehaviour {
 
 	private MeshFilter meshFilter;

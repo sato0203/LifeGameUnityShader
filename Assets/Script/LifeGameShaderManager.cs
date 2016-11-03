@@ -1,6 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/// <summary>
+/// シェーダーにデータを送り込むクラス
+/// </summary>
 public class LifeGameShaderManager : MonoBehaviour {
 
 	[SerializeField]
@@ -36,7 +39,6 @@ public class LifeGameShaderManager : MonoBehaviour {
 			Graphics.Blit(curRenderTexture, prevRenderTexture, copyMaterial);
 			Graphics.Blit(curRenderTexture, curRenderTexture, lifeGameMaterial);
 			elapsedSeconds = 0;
-			Debug.Log("aa");
 		}
 	}
 }
