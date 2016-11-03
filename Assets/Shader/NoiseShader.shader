@@ -51,7 +51,7 @@
 
 			fixed4 GetWhiteOrBlack(float2 uv)
 			{
-				float value = frac(sin((dot(uv.xy,float2(12.9898,78.233)))* 43758.5453));
+				float value = frac(sin((dot(uv.xy,float2(12.9898,78.233))+_Seed)* 43758.5453));
 				if(value>0.5)
 					value=1;
 				else

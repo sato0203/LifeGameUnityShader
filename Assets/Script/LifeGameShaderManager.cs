@@ -31,12 +31,18 @@ public class LifeGameShaderManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		elapsedSeconds += Time.deltaTime;
-		if (elapsedSeconds > 1f)
+		if(Input.GetMouseButtonDown(0))
+		//if (elapsedSeconds > 0.1f)
 		{
 			Graphics.Blit(curRenderTexture, prevRenderTexture, copyMaterial);
-			Graphics.Blit(prevRenderTexture, curRenderTexture, lifeGameMaterial);
+			Graphics.Blit(curRenderTexture, curRenderTexture, lifeGameMaterial);
 			elapsedSeconds = 0;
 			Debug.Log("aa");
 		}
+	}
+
+	void OnPostRender()
+	{ 
+		
 	}
 }

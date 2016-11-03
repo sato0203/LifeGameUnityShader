@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/LifeGameShaderManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Shader/NoiseShader.shader">
     <Files>
-      <File FileName="Assets/Script/DynamicCreateMesh.cs" Line="19" Column="4" />
-      <File FileName="Assets/Script/LifeGameShaderManager.cs" Line="27" Column="51" />
+      <File FileName="Assets/Script/LifeGameShaderManager.cs" Line="32" Column="18" />
+      <File FileName="Assets/Shader/NoiseShader.shader" Line="54" Column="5" />
+      <File FileName="Assets/Shader/lifeGame.shader" Line="42" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

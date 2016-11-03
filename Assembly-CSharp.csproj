@@ -48,7 +48,6 @@
      <Compile Include="Assets\Script\LifeGameShaderManager.cs" />
      <Compile Include="Assets\Script\MeshInformationReader.cs" />
      <None Include="Assets\Shader\NoiseShader.shader" />
-     <None Include="Assets\Shader\brushShader.shader" />
      <None Include="Assets\Shader\lifeGame.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
